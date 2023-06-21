@@ -1,4 +1,138 @@
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+}
+
+.navbar {
+    display: flex;
+    height: 64px;
+}
+
+.company {
+    display: flex;
+    padding-left: 24px;
+    align-items: center;
+}
+
+.company img {
+    height: 32px;
+    width: auto;
+}
+
+.company p {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.company span {
+    font-weight: 400;
+    color: gray;
+}
+
+.navbar :last-child {
+    margin-left: auto;
+    padding-right: 8px;
+}
+
+.navbar span {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    float: right;
+    margin-right: 16px;
+}
+
+nav {
+    padding: 8px;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+    border-radius: 5px;
+}
+
+nav:hover {
+    color:grey;
+    box-shadow: 0 5px 15px grey;
+
+}
+
+.banner-container {
+    background-color: lightgray;
+}
+
+.banner {
+    display: flex;
+}
+
+img {
+    padding: 32px 24px;
+    width: 60%;
+    height: auto;
+    padding-right: 16px;
+}
+
+.learn-something {
+    width: 30%;
+    display: inline-block;
+    align-self: center;
+    text-align: left;
+
+}
+
+.learn-something > * {
+    margin: 1.5rem 16px;
+    width: 100%;
+}
+
+.button {
+    font-size: 1.25em;
+    padding: 0.5em;
+    color: white;
+    background-color: #4a4a4a;
+}
+
+h1 {
+    color: #4a4a4a;
+    font-size: 2.5rem;
+}
+
+.learn-something p {
+    font-size: 1.25rem;
+}
+
+.keep-going {
+    padding: 0 32px 24px;
+    width: 60%;
+}
+
+h2 {
+    color: #4a4a4a;
+    font-size: 2rem;
+    padding-bottom: 24px;
+}
+
+quote {
+    color: grey;
+    display: block;
+    font-size: 1.25rem;
+}
+
+.keep-going p {
+    margin-top: 32px;
+}
+
+.side-bar {
+    width: 40%;
+}
+
+
+
 .mobile {
-    display: hidden;
+    display: none;
 }
