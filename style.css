@@ -1,12 +1,9 @@
 
-*{
-    padding: 0;
-    margin: 0;
-}
-
 html {
     box-sizing: border-box;
     font-family: 'Ubuntu';
+    padding: 0px;
+    margin: 0px;
 }
 
 .navbar {
@@ -70,7 +67,7 @@ nav:hover {
     display: flex;
 }
 
-img {
+.banner-container img {
     padding: 32px 24px;
     width: 60%;
     height: auto;
@@ -104,34 +101,100 @@ h1 {
 
 .learn-something p {
     font-size: 1.25rem;
+    
 }
 
-.keep-going {
-    padding: 0 32px 24px;
-    width: 60%;
-}
-
-h2 {
+.learn-something h2 {
     color: #4a4a4a;
     font-size: 2rem;
     padding-bottom: 24px;
 }
 
-quote {
-    color: grey;
-    display: block;
-    font-size: 1.25rem;
+.information {
+    display: flex;
 }
 
-.keep-going p {
-    margin-top: 32px;
+.left-side-container img {
+    width: 100%;
 }
 
-.side-bar {
+.left-side-container {
+    width: 60%;
+    margin: 1.5rem;
+
+}
+
+.right-side-container {
+    border-left: solid lightgray 1px;
     width: 40%;
+    padding: 1.5rem;
 }
 
+.info-card img {
+    width: 40%;
+    height: auto;
+    padding-right: 1rem;
+}
 
+.info-card {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+
+.info > *{
+    padding: 0.25rem;
+}
+
+a {
+    color: blue;
+}
+
+#start-learning {
+    background-color: lightgray;
+    padding-top: 1rem;
+}
+
+#start-learning h2 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.all-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card {
+    width: 30%;
+    background-color: rgba(245, 245, 245, 0.681);
+    margin: 1rem;
+}
+
+.course {
+    padding: 1rem 1rem 1.5rem 1rem;
+}
+
+.course h3 {
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.course > * {
+    padding-bottom: 0.5rem;
+}
+
+.subject {
+    text-transform: uppercase;
+    margin: 0;
+}
 
 .mobile {
     display: none;

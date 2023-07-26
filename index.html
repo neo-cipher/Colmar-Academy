@@ -37,81 +37,101 @@
         </section>
 
         <section class="information">
-            <img class="desktop" src="/images/information-main.jpg" alt="Man reading book." />
-            <img class="mobile" src="/images/information-campus-mobile.jpg" alt="Man reading book." />
-            <div class="keep-going">
-                <h2>It doesn't hurt to keep practicing</h2>
-                <quote>Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus,
-                    nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet,
-                    efficitur dolor consequat, tristique ligula."</quote>
-                <p>Emanuel, Sr Strategist at Hiring.com</p>
+            <div class="left-side-container">
+                <img class="desktop" src="/images/information-main.jpg" alt="Man reading book." />
+                <img class="mobile" src="/images/information-campus-mobile.jpg" alt="Man reading book." />
+                    <h2>It doesn't hurt to keep practicing</h2>
+                    <quote>Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus,
+                        nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet,
+                        efficitur dolor consequat, tristique ligula."</quote>
+                    <p>Emanuel, Sr Strategist at Hiring.com</p>
             </div>
-            <div class="side-bar">
-                <div class="orientation">
+            <div class="right-side-container">
+                <div id="orientation" class="info-card">
                     <img class="mobile" src="/images/information-orientation-mobile.jpg" alt="Overhead of students walking on stone path." />
                     <img class="desktop" src="/images/information-orientation.jpg" alt="Overhead of students walking on stone path." />
-                    <h3>Orientation date</h3>
-                    <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
-                    <a>Read more</a>
+                    <div class="info">
+                        <h3>Orientation date</h3>
+                        <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                        <a>Read more</a>
+                    </div>
                 </div>
-                <div class="campus">
+                <div id="campus" class="info-card">
                     <img class="mobile" src="/images/information-campus-mobile.jpg" alt="Students studying." />
                     <img class="desktop" src="/images/information-campus.jpg" alt="Students studying." />
-                    <h3>Our campus</h3>
-                    <p>Find which campus is close by you</p>
-                    <a>Read more</a>
+                    <div class="info">
+                        <h3>Our campus</h3>
+                        <p>Find which campus is close by you</p>
+                        <a>Read more</a>
+                    </div>
                 </div>
-                <div class="guest-lecture">
+                <div id="guest-lecture" class="info-card">
                     <img class="mobile" src="/images/information-guest-lecture-mobile.jpg" alt="Picture of Oliver Sack."/>
                     <img class="desktop" src="/images/information-guest-lecture.jpg" alt="Picture of Oliver Sack."/>
-                    <h3>Our guest lecture</h3>
-                    <p>Join a keynote with Oliver Sack about music in medical treatment</p>
-                    <a>Read more</a>
+                    <div class="info">
+                        <h3>Our guest lecture</h3>
+                        <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+                        <a>Read more</a>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section>
+        <section id="start-learning">
             <h2>Start learning</h2>
-            <div class="card">
-                <img src="/images/course-software.jpg" alt="Desk with computer monitors" />
-                <h3>Software engineering</h3>
-                <subject>Courses</subject>
-                <p>Web Development, Mobile Development, iOT, APIs</p>
-            </div>
-            <div class="card">
-                <img src="/images/course-computer-art.jpg" alt="Hand holding phone in left hand" />
-                <h3>Computer art</h3>
-                <subject>Courses</subject>
-                <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
-            </div>
-            <div class="card">
-                <img src="/images/course-design.jpg" alt="Man using old camera at waist height"/>
-                <h3>Design</h3>
-                <subject>Courses</subject>
-                <p>User Experience Design, User Research, Visual Design</p>
-            </div>
-            <div class="card">
-                <img src="/images/course-data.jpg" alt="Laptop with data analysis open on monitor" />
-                <h3>Data</h3>
-                <subject>Courses</subject>
-                <p>Data Science, Big Data, SQL, Data Visualization</p>
-            </div>
-            <div class="card">
-                <img src="/images/course-business.jpg" alt="Close up image of old chessman on a chessboard" />
-                <h3>Business</h3>
-                <subject>Courses</subject>
-                <p>Product Development, Business Development, Startup</p>
-            </div>
-            <div class="card">
-                <img src="/images/course-marketing.jpg" alt="Close up of apple watch on a persons wrist" />
-                <h3>Marketing</h3>
-                <subject>Courses</subject>
-                <p>Analytics, Content Marketing, Mobile Marketing</p>
+            <div class="all-cards">
+                <div class="card">
+                    <img src="/images/course-software.jpg" alt="Desk with computer monitors" />
+                    <div class="course">
+                        <h3>Software engineering</h3>
+                        <p class="subject">Courses</p class="subject">
+                        <p>Web Development, Mobile Development, iOT, APIs</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/images/course-computer-art.jpg" alt="Hand holding phone in left hand" />
+                    <div class="course">
+                        <h3>Computer art</h3>
+                        <p class="subject">Courses</p class="subject">
+                        <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/images/course-design.jpg" alt="Man using old camera at waist height"/>
+                    <div class="course">
+                        <h3>Design</h3>
+                        <p class="subject">Courses</p class="subject">
+                        <p>User Experience Design, User Research, Visual Design</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/images/course-data.jpg" alt="Laptop with data analysis open on monitor" />
+                    <div class="course">
+                        <h3>Data</h3>
+                        <p class="subject">Courses</p class="subject">
+                        <p>Data Science, Big Data, SQL, Data Visualization</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/images/course-business.jpg" alt="Close up image of old chessman on a chessboard" />
+                    <div class="course">
+                        <h3>Business</h3>
+                        <p class="subject">Courses</p class="subject">
+                        <p>Product Development, Business Development, Startup</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/images/course-marketing.jpg" alt="Close up of apple watch on a persons wrist" />
+                    <div class="course">
+                        <h3>Marketing</h3>
+                        <p class="subject">Courses</p class="subject">
+                        <p>Analytics, Content Marketing, Mobile Marketing</p>
+                    </div>
+                </div>
             </div>
         </section>
 
-<!-- TODO: finish input of media -->
+
         <section>
             
             <video src="/videos/thesis.mp4"></video>
