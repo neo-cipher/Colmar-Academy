@@ -1,9 +1,12 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
 
 html {
     box-sizing: border-box;
     font-family: 'Ubuntu';
-    padding: 0px;
-    margin: 0px;
 }
 
 .navbar {
@@ -104,12 +107,6 @@ h1 {
     
 }
 
-.learn-something h2 {
-    color: #4a4a4a;
-    font-size: 2rem;
-    padding-bottom: 24px;
-}
-
 .information {
     display: flex;
 }
@@ -127,7 +124,7 @@ h1 {
 .right-side-container {
     border-left: solid lightgray 1px;
     width: 40%;
-    padding: 1.5rem;
+    padding: 1.5rem 1.5rem 0;
 }
 
 .info-card img {
@@ -152,18 +149,21 @@ a {
 
 #start-learning {
     background-color: lightgray;
-    padding-top: 1rem;
+
 }
 
 #start-learning h2 {
     font-size: 2.5rem;
     text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 
 .all-cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 0 3.5rem 1rem 3.5rem;
 }
 
 .card img {
@@ -183,17 +183,106 @@ a {
 }
 
 .course h3 {
-    font-size: 1.25rem;
-    margin: 0;
+    font-size: 1.5rem;
 }
 
 .course > * {
     padding-bottom: 0.5rem;
 }
 
+.card p {
+    line-height: 1.4rem;
+    font-size: 1.125rem;
+}
+
 .subject {
     text-transform: uppercase;
-    margin: 0;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+#thesis-exhibit {
+    display: flex;
+}
+
+.thesis-left-container {
+    padding: 1rem 1.5rem 1.5rem;
+    width: 60%;
+}
+
+.thesis-right-container {
+    width: 40%;
+}
+
+.thesis-card img {
+    width: 39%;
+    height: auto;
+    padding: 1rem 1rem 1rem 0;
+}
+
+.thesis-card {
+    display: flex;
+    align-items: center;
+    padding-right: 0.5rem;
+}
+
+.thesis-card div {
+    width: 60%;
+}
+
+.thesis-card div > * {
+    padding: 0.25rem;
+}
+
+.thesis-card h3 {
+    font-size: 1.5rem;
+}
+
+.thesis-card p {
+    font-size: 1.125rem;
+    color:#4a4a4a;
+}
+
+.thesis-left-container h3 {
+    padding: 1.5rem 0 0.5rem 0;
+    font-size: 1.5rem;
+
+}
+
+#urban-quote {
+    line-height: 1.4rem;
+    padding-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    padding: 1rem 1.5rem;
+    border-top: 1px solid #bbbbbb;
+    color: gray;
+}
+
+span {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    float: right;
+    margin-right: 16px;
+    
+}
+
+span link {
+    display: flex;
+    margin-left: 1rem;
 }
 
 .mobile {
