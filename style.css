@@ -3,7 +3,6 @@
     margin: 0px;
 }
 
-
 html {
     box-sizing: border-box;
     font-family: 'Ubuntu';
@@ -11,24 +10,25 @@ html {
 
 .navbar {
     display: flex;
-    height: 64px;
+    height: 4rem;
 }
 
 .company {
     display: flex;
-    padding-left: 24px;
+    padding-left: 1.25rem;
     align-items: center;
 }
 
 .company img {
-    height: 32px;
+    height: 3.5rem;
     width: auto;
+    padding-top: 0.3rem;
 }
 
 .company p {
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 1.25rem;
+    font-size: 2rem;
 }
 
 .company span {
@@ -36,65 +36,82 @@ html {
     color: gray;
 }
 
-.navbar :last-child {
-    margin-left: auto;
-    padding-right: 8px;
-}
-
-.navbar span {
+.navbar {
     display: flex;
-    justify-content: right;
-    align-items: center;
-    float: right;
-    margin-right: 16px;
+    justify-content: space-between;
 }
 
-nav {
+.navbar :last-child {
+    margin-right: 0.5rem;
+}
+
+.desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
     padding: 8px;
     text-decoration: none;
-    transition: all 0.2s ease-in;
+    transition: all 0.4s ease-in;
     border-radius: 5px;
+    list-style-type: none;
+    font-size: 1.25rem;
+    color: grey;
 }
 
-nav:hover {
+li:hover {
     color:grey;
     box-shadow: 0 5px 15px grey;
 
 }
 
+#banner {
+    background-color: lightgrey;
+}
+
 .banner-container {
-    background-color: lightgray;
-}
-
-.banner {
     display: flex;
+    padding: 1.5rem;
 }
 
-.banner-container img {
-    padding: 32px 24px;
-    width: 60%;
+.left-banner img {
+    width: 100%;
+    height: a;
+}
+
+.left-banner {
+    display: none;
+    max-width: 60%;
     height: auto;
-    padding-right: 16px;
+    display: block;
 }
 
-.learn-something {
+.right-banner {
+    margin-left: 1rem;
     width: 30%;
     display: inline-block;
     align-self: center;
     text-align: left;
-
 }
 
-.learn-something > * {
-    margin: 1.5rem 16px;
+.right-banner h3 {
+    margin: 2rem 0;
     width: 100%;
+    color: #4a4a4a;
 }
 
-.button {
+
+
+.button a {
+    display: block;
     font-size: 1.25em;
-    padding: 0.5em;
-    color: white;
+    padding: 0.5em 2.5em;
     background-color: #4a4a4a;
+    text-decoration: none;
+    color: white;
+    text-align: center;
 }
 
 h1 {
@@ -121,6 +138,16 @@ h1 {
 
 }
 
+blockquote {
+    color: #727070;
+}
+
+.left-side-container p {
+    padding: 2rem 0;
+    color: #363636;
+    font-weight: 700;
+}
+
 .right-side-container {
     border-left: solid lightgray 1px;
     width: 40%;
@@ -139,7 +166,12 @@ h1 {
     padding-bottom: 1.5rem;
 }
 
+.info-card h3 {
+    display: block;
+}
+
 .info > *{
+    display: block;
     padding: 0.25rem;
 }
 
@@ -173,7 +205,7 @@ a {
 }
 
 .card {
-    width: 30%;
+    width: 29%;
     background-color: rgba(245, 245, 245, 0.681);
     margin: 1rem;
 }
@@ -256,8 +288,8 @@ h2 {
 
 #urban-quote {
     line-height: 1.4rem;
-    padding-bottom: 2rem;
-    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
 }
 
 video {

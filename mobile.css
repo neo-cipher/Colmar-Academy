@@ -1,0 +1,191 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Ubuntu';    
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.company {
+    display: none;
+}
+
+.nav-links {
+    display: none;
+}
+
+.icons {
+    padding-top: 1rem;
+    display: flex;
+}
+
+.icon {
+    padding: 0 1.5rem;
+    width: 2.75rem;
+    height: auto;
+}
+
+.icons :first-child {
+    margin-top: -.4rem;
+}
+
+.banner {
+    background-color: lightgray;
+}
+
+.desktop {
+    display: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+.learn-something > * {
+    margin: 2rem 1rem 1.5rem;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-size: 1.5em;
+    padding: 0.6rem 32%;
+    color: white;
+    background-color: #4a4a4a;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    color: #4a4a4a;
+    font-size: 2.5rem;
+}
+
+.learn-something p {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #4a4a4a;
+}
+
+.left-side-container {
+    display: none;
+}
+
+.info-card:first-of-type {
+    padding-top: 1rem;
+}
+
+.info-card {
+    padding: 0 1rem 1rem;
+}
+
+.info {
+    padding: 1rem;
+}
+
+.info > * {
+    padding-bottom: 0.6rem;
+    line-height: 1.5;
+}
+
+.info p {
+    font-size: 1.2rem;
+}
+
+a {
+    font-size: 1.5rem;
+    color: blue;
+}
+
+.right-side-container h3 {
+    font-size: 2.25rem;
+    padding: 0.25rem 1rem 0;
+}
+
+.course p {
+    display: none;
+}
+
+#start-learning {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+}
+
+.card {
+    width: 100%;
+    height: auto;
+}
+
+#start-learning h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.card::after {
+    margin: 2rem;
+}
+
+.card img {
+    display: none;
+}
+
+
+.card h3 {
+    font-size: 1.5rem;
+    padding: 1.5rem 1rem;
+    margin: 0.5rem 1rem;
+    border: transparent;
+    background-color: lightgray;
+}
+
+#thesis-exhibit {
+    padding: 2rem 0 1.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.thesis-left-container h3, quote{
+    display: none;
+}
+ 
+.thesis-right-container {
+    display: none;
+}
+
+footer {
+    padding: 1rem;
+}
+
+.terms {
+    display: none;
+}
